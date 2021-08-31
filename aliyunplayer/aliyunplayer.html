@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://g.alicdn.com/de/prismplayer/2.9.3/skins/default/aliplayer-min.css" />
+    <script charset="utf-8" type="text/javascript" src="https://g.alicdn.com/de/prismplayer/2.9.3/aliplayer-min.js"></script>
+</head>
+
+<body>
+    <div class="prism-player" id="J_prismPlayer"></div>
+    <script>
+        var player = new Aliplayer({
+            id: 'J_prismPlayer',
+            width: '100%',
+            autoplay: true,
+            //支持播放地址播放,此播放优先级最高
+            source: 'https://outin-266f3f4fd0cd11eb88e400163e1c8dba.oss-cn-shanghai.aliyuncs.com/sv/4e8a9d70-17a37ea83e5/4e8a9d70-17a37ea83e5.mp4?Expires=1624439387&OSSAccessKeyId=LTAI4FfD63zoqnm6ckiBFfXZ&Signature=N3T3vJQgr50Nn9fznj1YFpRXLMM%3D',
+            cover: 'https://junyao-edu.oss-cn-shanghai.aliyuncs.com/banner/2021/06/21banner%20-%20%E5%89%AF%E6%9C%AC%20-%20%E5%89%AF%E6%9C%AC.jpg'
+        }, function(player) {
+            console.log('播放器创建好了。')
+        });
+    </script>
+</body>
+
+</html>

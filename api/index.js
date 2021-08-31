@@ -1,0 +1,14 @@
+/* eslint-disable space-before-function-paren */
+/* eslint-disable eol-last */
+/* eslint-disable indent */
+import request from '@/utils/request'
+
+export default {
+    // 查询热门课程和名师
+    getIndexData() {
+        return request({
+            url: '/eduService/indexFront/index',
+            method: 'get'
+        })
+    }
+}
