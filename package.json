@@ -26,6 +26,7 @@
         "swiper": "^6.7.0",
         "typescript": "^4.3.4",
         "vue-awesome-swiper": "^4.1.1",
+        "vue-image-crop-upload": "^3.0.3",
         "vue-qriously": "^1.1.1"
     },
     "devDependencies": {

@@ -47,14 +47,9 @@
             </li>
             <li v-show="loginInfo.id" id="is-login-two" class="h-r-user">
               <no-ssr>
-                <img
-                  :src="loginInfo.avatar"
-                  width="30"
-                  height="30"
-                  class="vam picImg"
-                >
+                <el-avatar :src="loginInfo.avatar" />
               </no-ssr>
-              <a href="/ucenter" title>
+              <a :href="'/ucenter' + loginInfo.id" title>
                 <span id="userName" class="vam disIb">{{ loginInfo.nickname }}</span>
               </a>
               <a href="javascript:void(0);" title="退出" class="ml5" @click="logout()">退出</a>
