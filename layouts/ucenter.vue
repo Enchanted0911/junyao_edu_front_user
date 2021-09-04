@@ -47,7 +47,6 @@
     </el-aside>
 
     <el-container style="position: relative">
-        1234
       <nuxt :tabledata="tableData" />
     </el-container>
   </el-container>
